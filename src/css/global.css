@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /*
+		https://tailwindcss.com/docs/customizing-colors
+	*/
+  --primary: #262626; /* neutral-800 */
+  --secondary: #171717; /* neutral-900 */
+  --tertiary: #404040; /* neutral-700 */
+  --color: #f3f3f3;
+  --accent-primary: #2563eb; /* blue-600 */
+  --accent-primary-state: #1e40af; /* blue-800 */
+}
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
