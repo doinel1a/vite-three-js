@@ -1,0 +1,59 @@
+{
+  "private": true,
+  "author": {
+    "name": "Doinel Atanasiu",
+    "email": "doinel1atanasiu@gmail.com",
+    "url": "https://business-link.d1a.app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doinel1a/vite-vanilla-three-js-starter"
+  },
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "npx husky install && npx playwright install",
+    "clean:dist": "npx rimraf dist",
+    "clean:report": "npx rimraf playwright-report",
+    "clean:deps": "npx rimraf high-level-dependencies.html",
+    "deps": "depcruise --version && depcruise --config .dependency-cruiser.cjs --output-type archi src | dot -T svg | depcruise-wrap-stream-in-html > high-level-dependencies.html",
+    "test:chrome": "npx playwright test --headed --project=chromium",
+    "test:firefox": "npx playwright test --headed --project=firefox",
+    "test:safari": "npx playwright test --headed --project=webkit",
+    "lint": "npx eslint --ext js ./src",
+    "lint:fix": "npx eslint --ext js ./src --fix",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-legacy": "^4.0.2",
+    "three": "^0.150.1"
+  },
+  "devDependencies": {
+    "@builder.io/partytown": "^0.7.6",
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@playwright/test": "^1.31.2",
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^5.1.15",
+    "dependency-cruiser": "^12.11.0",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.25.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-sonarjs": "^0.19.0",
+    "eslint-plugin-unicorn": "^46.0.0",
+    "husky": "^8.0.3",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.6",
+    "prettier-plugin-tailwindcss": "^0.2.5",
+    "sass": "^1.59.3",
+    "tailwindcss": "^3.2.7",
+    "terser": "^5.16.6",
+    "vite": "^4.2.0",
+    "vite-plugin-glsl": "^1.1.2"
+  }
+}
