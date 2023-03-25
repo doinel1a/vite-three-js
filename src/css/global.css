@@ -14,6 +14,12 @@
   --accent-primary-state: #1e40af; /* blue-800 */
 }
 
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
 .github-corner:hover .octo-arm {
   animation: octocat-wave 560ms ease-in-out;
 }
