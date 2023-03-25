@@ -1,8 +1,9 @@
-/* eslint-disable unicorn/prefer-module */
 // @ts-check
-const { test } = require('@playwright/test');
+import { test } from '@playwright/test';
+
+import _config from '../_config';
 
 test('Test browsers', async ({ page }) => {
-  await page.goto('http://127.0.0.1:5173');
+  await page.goto(`${_config.server.host}:${_config.server.port}`);
   await page.pause();
 });
