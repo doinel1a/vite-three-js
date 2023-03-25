@@ -1,8 +1,8 @@
 {
   "lang": "en-EN",
-  "name": "Vite Vanilla ThreeJS — Starter",
-  "short_name": "Vite Vanilla ThreeJS — Starter",
-  "description": "Start a Vanilla ThreeJS Web App, SPA, website or landing page using JavaScript, Tailwind CSS, ESLint, Husky, Vite, Babel and much more, in JUST 30 seconds, without the hassle of setting up your dev environment.",
+  "name": "Vite ThreeJS — Template",
+  "short_name": "Vite Vanilla ThreeJS — Template",
+  "description": "Template designed for quickly bootstrapping a Three.JS Web App, SPA, website or landing page with Vite, SWC, TailwindCSS, ESLint, Husky and much more in just 30 seconds.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
