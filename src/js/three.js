@@ -1,4 +1,6 @@
 import * as T from 'three';
+// eslint-disable-next-line import/no-unresolved
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 import fragment from '../shaders/fragment.glsl';
 import vertex from '../shaders/vertex.glsl';
@@ -21,7 +23,7 @@ export default class Three {
       0.1,
       100
     );
-    this.camera.position.set(0, 0, 1);
+    this.camera.position.set(0, 0, 2);
     this.scene.add(this.camera);
 
     this.renderer = new T.WebGLRenderer({
@@ -32,6 +34,8 @@ export default class Three {
     });
     this.renderer.setSize(device.width, device.height);
     this.renderer.setPixelRatio(Math.min(device.pixelRatio, 2));
+
+    this.controls = new OrbitControls(this.camera, this.canvas);
 
     this.clock = new T.Clock();
 
@@ -65,8 +69,8 @@ export default class Three {
   render() {
     const elapsedTime = this.clock.getElapsedTime();
 
-    this.planeMesh.rotation.x = 0.3 * elapsedTime;
-    this.planeMesh.rotation.y = 0.6 * elapsedTime;
+    this.planeMesh.rotation.x = 0.2 * elapsedTime;
+    this.planeMesh.rotation.y = 0.1 * elapsedTime;
 
     this.renderer.render(this.scene, this.camera);
     requestAnimationFrame(this.render.bind(this));
