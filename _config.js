@@ -1,6 +1,6 @@
 const _config = {
   server: {
-    host: 'http://localhost',
+    host: 'localhost',
     port: 3000
   }
 };
