@@ -6,10 +6,13 @@ import glsl from 'vite-plugin-glsl';
 
 import _config from './_config';
 
+const HOST = _config.server.host;
+const PORT = _config.server.port;
+
 export default {
   server: {
-    host: _config.server.host,
-    port: _config.server.port
+    host: HOST,
+    port: PORT
   },
   plugins: [
     legacy(),
