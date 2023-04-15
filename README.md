@@ -47,6 +47,9 @@ It's ideal for front-end engineers who want to build modern, fast and reliable *
 - **(OPTIONAL)** Alternative package manager:
   - **[PNPM][pnpm]** `npm install --global pnpm` <br /> or
   - **[Yarn][yarn]** `npm install --global yarn`
+
+<br />
+
 - Get the repository:
   - click **"Use this template"** &nbsp; or &nbsp; **"Fork"** button <br /> alternately
   - **clone** the repository through your terminal: <br />
@@ -58,6 +61,7 @@ It's ideal for front-end engineers who want to build modern, fast and reliable *
   | To **run** the **development server** | `npm run dev` | `pnpm dev` | `yarn dev` |
   | To **build** your app **for production** | `npm run build` | `pnpm build` | `yarn build` |
   | To **preview** your **production optimized app** | `npm run preview` | `pnpm preview` | `yarn preview` |
+  <br />
 - **To keep in mind**:
   - The `dependency-cruiser` package needs the GraphViz `dot` command in order to work. On most linux and comparable operating systems it will be awailable by default, if it's not the case check [GraphViz][graphviz] page for instructions, especially Windows users;
 
