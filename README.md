@@ -22,8 +22,8 @@
 
 # Vite Three JS — Template
 
-This development starter template is the ultimate solution to help you getting started on your project in no time, without the hassle of setting up and configuring your environment from scratch each time you start developing. <br />
-It's ideal for front-end engineers who want to build modern, fast and reliable **webgl** web applications with the latest cutting edge technologies such as **Three.JS**, **JavaScript**, **TailwindCSS**, **ESLint**, **Prettier**, **Husky**, **Vite** and much more!
+This boilerplate starter template is the ultimate solution to help you getting started on your project in no time, without the hassle of setting up and configuring your environment from scratch each time you start developing. <br />
+It's ideal for front-end engineers who want to build modern, fast and reliable **webgl** web applications with the latest cutting edge technologies such as **Three.JS**, **GLSL**, **JavaScript**, **TailwindCSS**, **Vite**, **ESLint**, **Prettier**, **Husky** and much more!
 
 **[Demo][demo]** | **[Bug(label: bug)][issues]** | **[Feature(label: enhancement)][issues]**
 
@@ -43,18 +43,14 @@ It's ideal for front-end engineers who want to build modern, fast and reliable *
 
 ### Prerequisites:
 
-- JavaScript runtime [node.js][node];
-- **(OPTIONAL)** Package manager: <br/>
-  **[PNPM][pnpm]** `npm install --global pnpm` &nbsp; | &nbsp; **[Yarn][yarn]** `npm install --global yarn`
-
-### To get started with this template:
-
+- JavaScript runtime **[node.js][node]**;
+- **(OPTIONAL)** Alternative package manager:
+  - **[PNPM][pnpm]** `npm install --global pnpm` <br /> or
+  - **[Yarn][yarn]** `npm install --global yarn`
 - Get the repository:
-
-  - click **"Use this template"** &nbsp; | &nbsp; **"Fork"** button <br/> or
+  - click **"Use this template"** &nbsp; or &nbsp; **"Fork"** button <br /> alternately
   - **clone** the repository through your terminal: <br />
     `git clone https://github.com/doinel1a/vite-three-js YOUR-PROJECT-NAME`;
-
 - Open your terminal or code editor to the path your project is located, and run:
   | | **NPM** | **PNPM** | **Yarn** |
   | ------------------------------------------------ | ----------------- | -------------- | -------------- |
@@ -62,24 +58,21 @@ It's ideal for front-end engineers who want to build modern, fast and reliable *
   | To **run** the **development server** | `npm run dev` | `pnpm dev` | `yarn dev` |
   | To **build** your app **for production** | `npm run build` | `pnpm build` | `yarn build` |
   | To **preview** your **production optimized app** | `npm run preview` | `pnpm preview` | `yarn preview` |
-
-- **Keep in mind**:
+- **To keep in mind**:
   - The `dependency-cruiser` package needs the GraphViz `dot` command in order to work. On most linux and comparable operating systems it will be awailable by default, if it's not the case check [GraphViz][graphviz] page for instructions, especially Windows users;
 
-[Back to:arrow_up:](#vite-three-js--template "Back to 'Table of contents' section")
+[Back to :arrow_up:](#vite-three-js--template "Back to 'Table of contents' section")
 
 ---
 
 ## :package: Features
 
-This development starter template comes fully equipped with all the necessary tools to create modern, responsive and fast web applications, including:
+This repository comes fully equipped with all the necessary tools to create modern, responsive and fast web applications, including:
 
 - **Three.JS**: A JavaScript library built on top of **WebGL** that provides an abstraction layer for rendering interactive 3D and 2D scenes in the web browser;
-- **JavaScript**: A programming language used primarily for creating dynamic web content and interactive user interfaces;
 - **TailwindCSS**: A utility-first CSS framework that provides predefined classes for common styles and layout patterns, allowing quick styling without writing custom CSS;
 - **SASS**: A CSS preprocessor that adds features such as variables, nesting, and mixins to CSS, making it easier to write and maintain large CSS codebases;
 - **PostCSS**: A tool for transforming CSS with JavaScript plugins, allowing to add new features to CSS and improve the development process;
-- **Fontawesome**: A library with over 5000 free icons that can be easily customized and used in web applications;
 - **Playwright**: A library for automating web browser interactions, allowing the writing of end-to-end tests and perform browser automation tasks;
 - **Vite**: A build tool and development server that provides fast and efficient development and production builds for modern web applications;
 
@@ -91,13 +84,13 @@ And with tools that enhance the development experience:
 - **Husky**: A Git hook manager that allows easy set up and configuration of Git hooks, which are scripts that run at certain points in the Git workflow;
 - **Commitlint**: A tool for enforcing commit message conventions in Git repositories, helping to ensure consistent and informative commit messages;
 
-[Back to:arrow_up:](#vite-three-js--template "Back to 'Table of contents' section")
+[Back to :arrow_up:](#vite-three-js--template "Back to 'Table of contents' section")
 
 ---
 
 ## :arrows_clockwise: Versions
 
-This starter template comes in 2 differente technologies: **Webpack** and **Vite**, the most popular development tools for web applications. <br />
+This repository comes in 2 differente technologies: **Webpack** and **Vite**, the most popular development tools for web applications. <br />
 Both tools support **SWC (Speedy Web Compiler)**, a **Rust-based compiler**; Vite is optimized for it out of the box.
 
 ### Vite (SWC compiler)
@@ -116,13 +109,13 @@ Is a more mature and flexible solution, capable of handling complex configuratio
 | :----------------------------------------------------: | :----------------------------------------------------: | :-: | :-----------------------------: | :------------------------------------------------: |
 | ![React][react-icon] & ![TS][ts-icon] <br /> **Soon!** | ![React][react-icon] & ![JS][js-icon] <br /> **Soon!** |     | ![TS][ts-icon] <br /> **Soon!** | ![JS][js-icon] <br /> **[Repo][webpack-three-js]** |
 
-[Back to:arrow_up:](#vite-three-js--template "Back to 'Table of contents' section")
+[Back to :arrow_up:](#vite-three-js--template "Back to 'Table of contents' section")
 
 ---
 
 ## :globe_with_meridians: Browsers support
 
-The provided configuration ensures **92.3 %** of **global browsers** , especially it supports the last three versions of the following browsers:
+The provided configuration ensures **92.3 %** of **global browsers**, especially it supports the last three versions of the following browsers:
 
 |            Chrome             |             Firefox              |             Edge             |        Opera         | Safari                       |
 | :---------------------------: | :------------------------------: | :--------------------------: | :------------------: | ---------------------------- |
@@ -138,7 +131,7 @@ You can play with the configurations [here][browserslist] and check in real-time
 
 **\* The more versions to support, larger JS and CSS bundles size will be.**
 
-[Back to:arrow_up:](#vite-three-js--template "Back to 'Table of contents' section")
+[Back to :arrow_up:](#vite-three-js--template "Back to 'Table of contents' section")
 
 ---
 
@@ -161,10 +154,9 @@ Please check the [**contributing guide**][code-of-conduct] for details on how to
     2.  Add your changes to the staging area: `git add PATH/TO/FILENAME.EXTENSION`;
     3.  Commit your changes: `git commit -m "fix: BUG FIX"`;
     4.  Push your new branch: `git push origin fix/BUG-FIX`;
-4.  Open a new [pull request][pulls];
-5.  Once your pull request has been merged, you can delete the branch;
+4.  Open a new **[pull request][pulls]**;
 
-[Back to:arrow_up:](#vite-three-js--template "Back to 'Table of contents' section")
+[Back to :arrow_up:](#vite-three-js--template "Back to 'Table of contents' section")
 
 ---
 
@@ -174,7 +166,7 @@ All logos and trademarks are the property of their respective owners.
 Everything else is distributed under the **MIT License** .  
 See the [LICENSE][license] file for more informations.
 
-[Back to:arrow_up:](#vite-three-js--template "Back to 'Table of contents' section")
+[Back to :arrow_up:](#vite-three-js--template "Back to 'Table of contents' section")
 
 ---
 
@@ -186,4 +178,4 @@ Special thanks to:
 - [alrra](https://github.com/alrra) for [browser-logos](https://github.com/alrra/browser-logos);
 - [tandpfun](https://github.com/tandpfun) for [skill-icons](https://github.com/tandpfun/skill-icons);
 
-[Back to:arrow_up:](#vite-three-js--template "Back to 'Table of contents' section")
+[Back to :arrow_up:](#vite-three-js--template "Back to 'Table of contents' section")
