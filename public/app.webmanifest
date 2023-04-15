@@ -2,7 +2,7 @@
   "lang": "en-EN",
   "name": "Vite ThreeJS — Template",
   "short_name": "Vite Vanilla ThreeJS — Template",
-  "description": "Template designed for quickly bootstrapping a Three.JS Web App, SPA, website or landing page with Vite, SWC, TailwindCSS, ESLint, Husky and much more in just 30 seconds.",
+  "description": "Boilerplate template designed to quickly bootstrapping a 3D Web App, SPA, website or landing page with Three.JS, GLSL, Vite, TailwindCSS, ESLint, Husky and much more in just 30 seconds.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
