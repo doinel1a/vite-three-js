@@ -18,7 +18,6 @@ yarn.lock
 
 # various
 /playwright-report
-high-level-dependencies.html
 TODO.md
 OLD_README.md
 

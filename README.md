@@ -61,9 +61,6 @@ It's ideal for front-end engineers who want to build modern, fast and reliable *
   | To **run** the **development server** | `npm run dev` | `pnpm dev` | `yarn dev` |
   | To **build** your app **for production** | `npm run build` | `pnpm build` | `yarn build` |
   | To **preview** your **production optimized app** | `npm run preview` | `pnpm preview` | `yarn preview` |
-  <br />
-- **To keep in mind**:
-  - The `dependency-cruiser` package needs the GraphViz `dot` command in order to work. On most linux and comparable operating systems it will be awailable by default, if it's not the case check [GraphViz][graphviz] page for instructions, especially Windows users;
 
 [Back to :arrow_up:](#vite-three-js--template "Back to 'Table of contents' section")
 
@@ -82,7 +79,6 @@ This repository comes fully equipped with all the necessary tools to create mode
 
 And with tools that enhance the development experience:
 
-- **Dependency cruiser**: A tool for visualizing and analyzing the dependencies between modules in a project, helping to identify potential issues and improve code maintainability;
 - **ESLint**: A tool for enforcing coding standards and identifying potential errors in the code;
 - **Prettier**: A code formatter that automatically formats code to conform to a consistent style, making it easier to read and maintain;
 - **Husky**: A Git hook manager that allows easy set up and configuration of Git hooks, which are scripts that run at certain points in the Git workflow;
