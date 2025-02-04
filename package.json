@@ -26,13 +26,13 @@
   },
   "dependencies": {
     "@vitejs/plugin-legacy": "^6.0.0",
-    "three": "^0.172.0"
+    "three": "^0.173.0"
   },
   "devDependencies": {
     "@builder.io/partytown": "^0.10.3",
-    "@commitlint/cli": "^19.6.1",
-    "@commitlint/config-conventional": "^19.6.0",
-    "@playwright/test": "^1.49.1",
+    "@commitlint/cli": "^19.7.1",
+    "@commitlint/config-conventional": "^19.7.1",
+    "@playwright/test": "^1.50.1",
     "autoprefixer": "^10.4.20",
     "cssnano": "^7.0.6",
     "eslint": "^8.57.0",
@@ -50,7 +50,7 @@
     "sass": "^1.83.4",
     "tailwindcss": "^3.4.17",
     "terser": "^5.37.0",
-    "vite": "^6.0.7",
+    "vite": "^6.0.11",
     "vite-plugin-glsl": "^1.3.1"
   }
 }
