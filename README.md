@@ -1,5 +1,6 @@
 [node]: https://nodejs.org/en
 [pnpm]: https://pnpm.io/installation
+[bun]: https://bun.com/docs/installation
 [yarn]: https://yarnpkg.com/getting-started/install
 [demo]: https://vite-three-js.d1a.app
 [license]: https://github.com/doinel1a/vite-three-js/blob/main/LICENSE
@@ -7,13 +8,7 @@
 [issues]: https://github.com/doinel1a/vite-three-js/issues
 [pulls]: https://github.com/doinel1a/vite-three-js/pulls
 [browserslist]: https://browsersl.ist/#q=last+3+versions%2C%3E+0.2%25%2C+not+dead
-[graphviz]: https://www.graphviz.org/download
 [commitlint]: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
-[webpack-three-js]: https://github.com/doinel1a/webpack-three-js
-[react-icon]: https://skillicons.dev/icons?i=react
-[ts-icon]: https://skillicons.dev/icons?i=ts
-[js-icon]: https://skillicons.dev/icons?i=js
-[tailwind-icon]: https://skillicons.dev/icons?i=tailwind
 [chrome-icon]: https://github.com/alrra/browser-logos/blob/main/src/chrome/chrome_64x64.png
 [firefox-icon]: https://github.com/alrra/browser-logos/blob/main/src/firefox/firefox_64x64.png
 [edge-icon]: https://github.com/alrra/browser-logos/blob/main/src/edge/edge_64x64.png
@@ -44,6 +39,7 @@ This repository is ideal for front-end developers who want to build modern, fast
 
 1. JavaScript runtime **[node.js][node]**
 2. **(OPTIONAL)** Alternative package manager:
+   - **[bun][bun]** <br /> or
    - **[pnpm][pnpm]** <br /> or
    - **[yarn][yarn]**
 
@@ -55,13 +51,15 @@ This repository is ideal for front-end developers who want to build modern, fast
      ```bash
      git clone https://github.com/doinel1a/vite-three-js YOUR-PROJECT-NAME
      ```
-2. Open your terminal or code editor to the path your project is located, and run:
-   | | **npm** | **pnpm** | **yarn** |
-   | ------------------------------------------------ | ----------------- | -------------- | -------------- |
-   | **install** dependencies | `npm install` | `pnpm install` | `yarn install` |
-   | **run** the **development server** | `npm run dev` | `pnpm dev` | `yarn dev` |
-   | **build** your **production app** | `npm run build` | `pnpm build` | `yarn build` |
-   | **preview** your **production app** | `npm run preview` | `pnpm preview` | `yarn preview` |
+2. Decide which package manager you want to use, then delete the unused "**.lock**" file(s)
+3. Open your terminal or code editor to the path your project is located, and run:
+
+   |                                     | **npm**           | **bun**           | **pnpm**       | **yarn**       |
+   | ----------------------------------- | ----------------- | ----------------- | -------------- | -------------- |
+   | **install** dependencies            | `npm install`     | `bun install`     | `pnpm install` | `yarn install` |
+   | **run** the **development server**  | `npm run dev`     | `bun run dev`     | `pnpm dev`     | `yarn dev`     |
+   | **build** your **production app**   | `npm run build`   | `bun run build`   | `pnpm build`   | `yarn build`   |
+   | **preview** your **production app** | `npm run preview` | `bun run preview` | `pnpm preview` | `yarn preview` |
 
 [Back to :arrow_up:](#vite-threejs--template "Back to 'Table of contents' section")
 
