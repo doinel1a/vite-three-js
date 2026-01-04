@@ -16,12 +16,7 @@ export default class Three {
 
     this.scene = new T.Scene();
 
-    this.camera = new T.PerspectiveCamera(
-      75,
-      device.width / device.height,
-      0.1,
-      100
-    );
+    this.camera = new T.PerspectiveCamera(75, device.width / device.height, 0.1, 100);
     this.camera.position.set(0, 0, 2);
     this.scene.add(this.camera);
 

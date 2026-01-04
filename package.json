@@ -13,16 +13,17 @@
   "license": "MIT",
   "scripts": {
     "postinstall": "husky & playwright install",
-    "clean:dist": "npx rimraf dist",
-    "clean:report": "npx rimraf playwright-report",
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "format": "prettier --write **/**/*.{html,js,mjs,cjs,ts,mts,cts} --cache",
     "test:chrome": "npx playwright test --headed --project=chromium",
     "test:firefox": "npx playwright test --headed --project=firefox",
     "test:safari": "npx playwright test --headed --project=webkit",
-    "lint": "eslint",
-    "lint:fix": "eslint --fix",
-    "dev": "vite --host",
-    "build": "vite build",
-    "preview": "vite preview"
+    "clean:dist": "npx rimraf dist",
+    "clean:report": "npx rimraf playwright-report"
   },
   "dependencies": {
     "@vitejs/plugin-legacy": "^7.2.1",

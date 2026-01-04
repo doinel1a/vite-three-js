@@ -11,4 +11,3 @@ window.addEventListener('load', () => {
     return new Three(canvas);
   }
 });
-
