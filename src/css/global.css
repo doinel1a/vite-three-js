@@ -1,17 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+@import 'tw-animate-css';
 
-:root {
-  /*
-		https://tailwindcss.com/docs/customizing-colors
-	*/
-  --primary: #262626; /* neutral-800 */
-  --secondary: #171717; /* neutral-900 */
-  --tertiary: #404040; /* neutral-700 */
-  --color: #f3f3f3;
-  --accent-primary: #2563eb; /* blue-600 */
-  --accent-primary-state: #1d4ed8; /* blue-700 */
+@theme inline {
+  --color-primary: #262626; /* neutral-800 */
+  --color-secondary: #171717; /* neutral-900 */
+  --color-tertiary: #404040; /* neutral-700 */
+  --color-color: #f3f3f3;
+  --color-accent-primary: #2563eb; /* blue-600 */
+  --color-accent-primary-state: #1d4ed8; /* blue-700 */
 }
 
 html,
@@ -47,3 +43,4 @@ body {
     animation: octocat-wave 560ms ease-in-out;
   }
 }
+
