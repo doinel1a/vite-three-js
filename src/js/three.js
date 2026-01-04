@@ -1,5 +1,4 @@
 import * as T from 'three';
-// eslint-disable-next-line import/no-unresolved
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 import fragment from '../shaders/fragment.glsl';
