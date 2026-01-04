@@ -1,5 +1,5 @@
-import '../css/global.css';
-import '../scss/global.scss';
+import '../styles/globals.css';
+import '../styles/globals.scss';
 
 import Three from './three';
 
