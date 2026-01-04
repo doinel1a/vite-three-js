@@ -10,5 +10,6 @@
   "bracketSameLine": false,
   "arrowParens": "always",
   "endOfLine": "lf",
-  "plugins": ["prettier-plugin-tailwindcss"]
+  "plugins": ["@ianvs/prettier-plugin-sort-imports", "prettier-plugin-tailwindcss"],
+  "importOrder": ["<TYPES>", "<TYPES>^[.]", "", "<THIRD_PARTY_MODULES>", "", "^[@]/", "", "^[.]"]
 }
