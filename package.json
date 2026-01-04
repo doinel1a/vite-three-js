@@ -12,18 +12,16 @@
     "url": "https://github.com/doinel1a/vite-three-js"
   },
   "scripts": {
-    "postinstall": "husky & playwright install",
+    "prepare": "husky",
+    "postinstall": "playwright install",
     "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "format": "prettier --write **/**/*.{html,js,mjs,cjs,ts,mts,cts} --cache",
-    "test:chrome": "npx playwright test --headed --project=chromium",
-    "test:firefox": "npx playwright test --headed --project=firefox",
-    "test:safari": "npx playwright test --headed --project=webkit",
-    "clean:dist": "npx rimraf dist",
-    "clean:report": "npx rimraf playwright-report"
+    "test": "playwright test",
+    "test:ui": "playwright test --ui"
   },
   "dependencies": {
     "@vitejs/plugin-legacy": "7.2.1",
