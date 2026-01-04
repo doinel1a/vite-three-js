@@ -9,83 +9,83 @@ importers:
   .:
     dependencies:
       '@vitejs/plugin-legacy':
-        specifier: ^7.2.1
+        specifier: 7.2.1
         version: 7.2.1(terser@5.44.1)(vite@7.3.0(@types/node@25.0.3)(jiti@2.6.1)(lightningcss@1.30.2)(sass@1.97.1)(terser@5.44.1)(yaml@2.7.0))
       three:
-        specifier: ^0.182.0
+        specifier: 0.182.0
         version: 0.182.0
     devDependencies:
       '@builder.io/partytown':
-        specifier: ^0.10.3
+        specifier: 0.10.3
         version: 0.10.3
       '@commitlint/cli':
-        specifier: ^20.3.0
+        specifier: 20.3.0
         version: 20.3.0(@types/node@25.0.3)(typescript@5.9.3)
       '@commitlint/config-conventional':
-        specifier: ^20.3.0
+        specifier: 20.3.0
         version: 20.3.0
       '@eslint/js':
-        specifier: ^9.39.2
+        specifier: 9.39.2
         version: 9.39.2
       '@ianvs/prettier-plugin-sort-imports':
-        specifier: ^4.7.0
+        specifier: 4.7.0
         version: 4.7.0(prettier@3.7.4)
       '@playwright/test':
-        specifier: ^1.57.0
+        specifier: 1.57.0
         version: 1.57.0
       '@tailwindcss/postcss':
-        specifier: ^4.1.18
+        specifier: 4.1.18
         version: 4.1.18
       cssnano:
-        specifier: ^7.1.2
+        specifier: 7.1.2
         version: 7.1.2(postcss@8.5.6)
       eslint:
-        specifier: ^9.39.2
+        specifier: 9.39.2
         version: 9.39.2(jiti@2.6.1)
       eslint-config-prettier:
-        specifier: ^10.1.8
+        specifier: 10.1.8
         version: 10.1.8(eslint@9.39.2(jiti@2.6.1))
       eslint-plugin-prettier:
-        specifier: ^5.5.4
+        specifier: 5.5.4
         version: 5.5.4(eslint-config-prettier@10.1.8(eslint@9.39.2(jiti@2.6.1)))(eslint@9.39.2(jiti@2.6.1))(prettier@3.7.4)
       eslint-plugin-sonarjs:
-        specifier: ^3.0.5
+        specifier: 3.0.5
         version: 3.0.5(eslint@9.39.2(jiti@2.6.1))
       eslint-plugin-unicorn:
-        specifier: ^62.0.0
+        specifier: 62.0.0
         version: 62.0.0(eslint@9.39.2(jiti@2.6.1))
       globals:
-        specifier: ^17.0.0
+        specifier: 17.0.0
         version: 17.0.0
       husky:
-        specifier: ^9.1.7
+        specifier: 9.1.7
         version: 9.1.7
       postcss:
-        specifier: ^8.5.6
+        specifier: 8.5.6
         version: 8.5.6
       prettier:
-        specifier: ^3.7.4
+        specifier: 3.7.4
         version: 3.7.4
       prettier-plugin-tailwindcss:
-        specifier: ^0.7.2
+        specifier: 0.7.2
         version: 0.7.2(@ianvs/prettier-plugin-sort-imports@4.7.0(prettier@3.7.4))(prettier@3.7.4)
       sass:
-        specifier: ^1.97.1
+        specifier: 1.97.1
         version: 1.97.1
       tailwindcss:
-        specifier: ^4.1.18
+        specifier: 4.1.18
         version: 4.1.18
       terser:
-        specifier: ^5.44.1
+        specifier: 5.44.1
         version: 5.44.1
       tw-animate-css:
-        specifier: ^1.4.0
+        specifier: 1.4.0
         version: 1.4.0
       vite:
-        specifier: ^7.3.0
+        specifier: 7.3.0
         version: 7.3.0(@types/node@25.0.3)(jiti@2.6.1)(lightningcss@1.30.2)(sass@1.97.1)(terser@5.44.1)(yaml@2.7.0)
       vite-plugin-glsl:
-        specifier: ^1.5.5
+        specifier: 1.5.5
         version: 1.5.5(@rollup/pluginutils@5.1.4(rollup@4.54.0))(esbuild@0.27.2)(vite@7.3.0(@types/node@25.0.3)(jiti@2.6.1)(lightningcss@1.30.2)(sass@1.97.1)(terser@5.44.1)(yaml@2.7.0))
 
 packages:
@@ -4880,7 +4880,7 @@ snapshots:
 
   refa@0.12.1:
     dependencies:
-      '@eslint-community/regexpp': 4.12.1
+      '@eslint-community/regexpp': 4.12.2
 
   regenerate-unicode-properties@10.2.2:
     dependencies:
@@ -4892,7 +4892,7 @@ snapshots:
 
   regexp-ast-analysis@0.7.1:
     dependencies:
-      '@eslint-community/regexpp': 4.12.1
+      '@eslint-community/regexpp': 4.12.2
       refa: 0.12.1
 
   regexp-tree@0.1.27: {}
@@ -4966,7 +4966,7 @@ snapshots:
 
   scslre@0.3.0:
     dependencies:
-      '@eslint-community/regexpp': 4.12.1
+      '@eslint-community/regexpp': 4.12.2
       refa: 0.12.1
       regexp-ast-analysis: 0.7.1
 
