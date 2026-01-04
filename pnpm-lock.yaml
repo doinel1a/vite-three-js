@@ -15,9 +15,6 @@ importers:
         specifier: 0.182.0
         version: 0.182.0
     devDependencies:
-      '@builder.io/partytown':
-        specifier: 0.10.3
-        version: 0.10.3
       '@commitlint/cli':
         specifier: 20.3.0
         version: 20.3.0(@types/node@25.0.3)(typescript@5.9.3)
@@ -584,12 +581,6 @@ packages:
   '@babel/types@7.28.5':
     resolution: {integrity: sha512-qQ5m48eI/MFLQ5PxQj4PFaprjyCTLI37ElWMmNs0K8Lk3dVeOdNpB3ks8jc7yM5CDmVC73eMVk/trk3fgmrUpA==}
     engines: {node: '>=6.9.0'}
-
-  '@builder.io/partytown@0.10.3':
-    resolution: {integrity: sha512-N2SWA3c5vEad3rgdAFM3zMb6uc7aXqibkgAz4ijvYzycgQXJ4dE5oH6fGFMXSQWj6ayVlLT1/CmpflYUJHfmQg==}
-    engines: {node: '>=18.0.0'}
-    deprecated: Use @qwik.dev/partytown instead
-    hasBin: true
 
   '@commitlint/cli@20.3.0':
     resolution: {integrity: sha512-HXO8YVfqdBK+MnlX2zqNrv6waGYPs6Ysjm5W2Y0GMagWXwiIKx7C8dcIX9ca+QdHq4WA0lcMnZLQ0pzQh1piZg==}
@@ -3331,8 +3322,6 @@ snapshots:
     dependencies:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
-
-  '@builder.io/partytown@0.10.3': {}
 
   '@commitlint/cli@20.3.0(@types/node@25.0.3)(typescript@5.9.3)':
     dependencies:
