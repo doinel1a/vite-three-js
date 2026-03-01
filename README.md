@@ -33,6 +33,10 @@ This repository is ideal for front-end developers who want to build modern, fast
 
 ---
 
+> [!NOTE]
+> A **TypeScript** version of this template is available [here](https://github.com/doinel1a/vite-three-ts).
+
+---
 ## :computer: Getting started
 
 ### Prerequisites
