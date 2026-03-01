@@ -1,13 +1,13 @@
 import js from '@eslint/js';
 import prettierConfig from 'eslint-config-prettier/flat';
 import prettierPlugin from 'eslint-plugin-prettier/recommended';
-import sonarjs from 'eslint-plugin-sonarjs';
+import { configs as sonarjs } from 'eslint-plugin-sonarjs';
 import unicorn from 'eslint-plugin-unicorn';
 import globals from 'globals';
 
 export default [
   js.configs.recommended,
-  sonarjs.configs.recommended,
+  sonarjs.recommended,
   unicorn.configs.recommended,
   prettierConfig,
   prettierPlugin,
