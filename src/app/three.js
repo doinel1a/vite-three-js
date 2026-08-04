@@ -11,6 +11,11 @@ const device = {
 };
 
 export default class Three {
+  ambientLight;
+  planeGeometry;
+  planeMaterial;
+  planeMesh;
+
   constructor(canvas) {
     this.canvas = canvas;
 

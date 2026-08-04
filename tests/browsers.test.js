@@ -1,5 +1,5 @@
 // @ts-check
-import { test } from '@playwright/test';
+import { expect, test } from '@playwright/test';
 
 import _config from '../_config';
 
@@ -8,5 +8,5 @@ const PORT = _config.server.port;
 
 test('Test browsers', async ({ page }) => {
   await page.goto(`http://${HOST}:${PORT}`);
-  await page.pause();
+  await expect(page.locator('#canvas')).toBeVisible();
 });
